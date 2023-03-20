@@ -1,3 +1,5 @@
+package zookeeper;
+
 import java.util.Scanner;
 
 public class Main {
@@ -124,6 +126,7 @@ public class Main {
             It looks like we will soon have more rabbits!""";
 
         String[] animals = {camel, lion, deer, goose, bat, rabbit};
+        // write your code here
         Scanner scanner = new Scanner(System.in);
         String input = null;
         int camera = 0;
@@ -144,6 +147,6 @@ public class Main {
         }
         System.out.println("See you later!");
 
-        // write your code here
+
     }
 }
